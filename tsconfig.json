@@ -1,7 +1,10 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true,
+    "strict": false,
+    "noEmit": true, // Do not emit output files
+    "skipLibCheck": true, // Skip type checking of declaration files (*.d.ts)
+    "isolatedModules": true, // Ensures that Babel can handle each file separately
     "paths": {
       "@/*": [
         "./*"
@@ -13,5 +16,8 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

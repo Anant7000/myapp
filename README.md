@@ -3,7 +3,7 @@
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
- 
+ 95:3E:6C:28:7F:C2:4D:D0:4B:3C:2E:BE:37:A7:DF:92:24:15:7F:59
 1. Install dependencies
 
    ```bash
